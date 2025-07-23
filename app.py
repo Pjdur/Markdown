@@ -38,5 +38,5 @@ if markdown_input:
     st.markdown("### Converted HTML:")
     st.code(raw_html, language="html")
 
-    st.markdown("###  Live HTML Preview with Streamlit-style fonts:")
+    st.markdown("###  Live HTML Preview :")
     st.components.v1.html(styled_html, height=300, scrolling=True)
